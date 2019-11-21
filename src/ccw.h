@@ -1,13 +1,13 @@
 #pragma once
-#include "TelloPro.h"
 
-class Land: public TelloPro
+#include "TelloPro.h"
+#include <cstring>
+
+class Ccw: public TelloPro
 {
 public:
-	Land();
-	Land(int _value);
-
-	
+	Ccw();
+	Ccw(int _value);
 public:
 	double get_delay();
 };

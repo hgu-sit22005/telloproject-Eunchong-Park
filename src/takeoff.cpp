@@ -9,5 +9,5 @@ Takeoff::Takeoff()
 
 double Takeoff::get_delay()
 {
-	return 5;
+	return 2;
 }
